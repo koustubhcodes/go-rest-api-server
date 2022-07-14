@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-var data []string = []string{}
+var data []string = []string{} //composite literal
 
 func main() {
 	router := mux.NewRouter()
